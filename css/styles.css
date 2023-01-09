@@ -55,6 +55,7 @@ img{
 }
 
 .new-employee-container {
+    /*Maybe add margin between Awakened container and New Employee container*/
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -79,31 +80,29 @@ img{
 
 
 /*Misc Events*/
-.monday-img{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75%;
-    margin: auto;
-}
-
-.monday-img img{
-    height: 100%;
-    object-fit: cover;
-}
-
-.misc-img{
+.monday-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 25px;
     width: 75%;
-    height: 100%;
     margin: auto;
 }
 
-.misc-img img{
+.monday-container img{
+    height: 100%;
+}
+
+.misc-img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    width: 75%;
+    margin: auto;
+}
+
+.misc-img-container img{
     height: 75%;
     width: 100%;
-    box-shadow: 0 2px 5px #a83232;
 }
 
 

@@ -36,10 +36,10 @@ function countdown(targetDate, element) {
         seconds = seconds % 60;
         
         element.innerHTML = 
-        '<div>' + days + ' days</div>' +
-        '<div>' + hours + ' hours</div>' +
-        '<div>' + minutes + ' minutes</div>' +
-        '<div>' + seconds + ' seconds</div>';
+        '<span>' + days + ' days </span>' +
+        '<span>' + hours + ' hours </span>' +
+        '<span>' + minutes + ' minutes </span>' +
+        '<span>' + seconds + ' seconds</span>';
 
         if (element === timerElement7 && currentDate > targetDate) {
           // Update the target date to be one week in the future
@@ -50,13 +50,13 @@ function countdown(targetDate, element) {
           element.innerHTML = "Event Over!";
         }
     }, 1000);
-    console.log(element);
 }
+
 
 countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement1);
 countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement2);
 countdown("January 12, 2023 04:00:00 UTC+09:00", timerElement3);
-countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement4);
+//countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement4);
 countdown("January 5, 2023 04:00:00 UTC+09:00", timerElement5);
 countdown("April 1, 2023 04:00:00 UTC+09:00", timerElement6);
 countdown("January 9, 2023 04:00:00 UTC+09:00", timerElement7);

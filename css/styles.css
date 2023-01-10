@@ -2,7 +2,7 @@ body{
     background-color: #262020;
     margin:auto;
     font-family: "Orbitron";
-    text-shadow: 0 2px 5px #a83232;
+    text-shadow: 0 3px 5px #a83232;
 }
 
 img{
@@ -36,38 +36,55 @@ img{
     margin: auto;
 }
 
+.main-events-img img:hover{
+    opacity: 0.70;
+}
 
-/*Rate Ups*/
-.awakened-container h1, .new-employee-header h1{
+
+/*Awakened*/
+.new-awakened-container h1, .new-employee-header h1{
     color: #f54242;
     text-align: center;
 }
 
-.awakened-container{
-    width: 25%;
+.new-awakened-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    width: 75%;
     margin: auto;
+    grid-gap: 50px;
 }
 
-.amy-img{
+.new-awakened-container img{
     outline: 2px solid #8b0000;
-    display: block;
-    margin: auto;
-}
-
-.new-employee-container {
-    /*Maybe add margin between Awakened container and New Employee container*/
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    width: 50%;
-}
-
-.new-employee-img img{
-    outline: 2px solid blue;
-    height: 100%;
+    height: 50%;
     width: 100%;
     object-fit: contain;
+}
+
+.amy-img img:hover, .shin-jia-img img:hover{
+    opacity: 0.70;
+}
+
+
+/*New Employees*/
+.new-employee-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: auto;
+    width: 65%;
+    grid-gap: 50px;
+}
+
+.new-employee-container img{
+    outline: 2px solid blue;
+    height: 75%;
+    object-fit: contain;
+}
+
+.new-employee-img img:hover{
+    opacity: 0.70;
 }
 
 
@@ -89,7 +106,8 @@ img{
 }
 
 .monday-container img{
-    height: 100%;
+    height: 80%;
+    width: 100%;
 }
 
 .misc-img-container{
@@ -106,7 +124,7 @@ img{
 }
 
 
-/*Countdown Font and Atuff*/
+/*Countdown Font and Stuff*/
 .countdown{
     color: #f54242;
     display: flex;

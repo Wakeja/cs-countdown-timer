@@ -1,8 +1,10 @@
 //Main Events
-var timerElement1 = document.getElementById("timer1");
+var timerEvent1 = document.getElementById("timerEvent1");
+var timerEvent2 = document.getElementById("timerEvent2");
 
 //Awakened
-var timerElement2 = document.getElementById("timer2");
+var timerAwakened1 = document.getElementById("timerAwakened1");
+var timerAwakened2 = document.getElementById("timerAwakened2");
 
 //New Employees
 var timerEmployee1 = document.getElementById("timerEmployee1");
@@ -12,13 +14,13 @@ var timerEmployee2 = document.getElementById("timerEmployee2");
 var timerElement4 = document.getElementById("timer4");
 
 //Danger Close
-var timerElement5 = document.getElementById("timer5");
+var timerDangerClose = document.getElementById("timerDangerClose");
 
 //Dive
-var timerElement6 = document.getElementById("timer6");
+var timerDive = document.getElementById("timerDive");
 
-//Counterpass
-var timerElement8 = document.getElementById("timer8");
+//Counterpass; Resets every 28 days
+var timerCounterpass = document.getElementById("timerCounterpass");
 
 //Shadow Palace/Shop Reset on Mondays
 var timerReset1 = document.getElementById("reset1");
@@ -90,16 +92,21 @@ function countReset(element) {
 }
 
 
-countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement1);
-countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement2);
+countdown("January 19, 2023 04:00:00 UTC+09:00", timerEvent1);
+countdown("January 26, 2023,04:00:00 UTC+09:00", timerEvent2);
 
-countdown("January 12, 2023 04:00:00 UTC+09:00", timerEmployee1);
-countdown("January 12, 2023 04:00:00 UTC+09:00", timerEmployee2);
+countdown("January 19, 2023 04:00:00 UTC+09:00", timerAwakened1);
+countdown("February 2, 2023 04:00:00 UTC+09:00",timerAwakened2);
+
+countdown("January 26, 2023 04:00:00 UTC+09:00", timerEmployee1);
+countdown("January 26, 2023 04:00:00 UTC+09:00", timerEmployee2);
 
 countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement4);
-countdown("January 5, 2023 04:00:00 UTC+09:00", timerElement5);
-countdown("April 1, 2023 04:00:00 UTC+09:00", timerElement6);
-countdown("January 12, 2023 04:00:00 UTC+09:00", timerElement8);
+
+countdown("January 19, 2023 04:00:00 UTC+09:00", timerDangerClose);
+countdown("April 1, 2023 04:00:00 UTC+09:00", timerDive);
+
+countdown("February 8, 2023 04:00:00 UTC+09:00", timerCounterpass);
 
 countReset(timerReset1);
 countReset(timerReset2);

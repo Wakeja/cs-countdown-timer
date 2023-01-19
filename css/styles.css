@@ -34,9 +34,10 @@ p{
 
 /* Main Events */
 .main-events-img {
+    /*
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
+    grid-template-columns: 1fr 1fr; */
+    width: 50%;
     margin: auto;
     column-gap: 25px;
 }
@@ -54,10 +55,10 @@ p{
 }
 
 .new-awakened-container{
-    display: grid;
+    /*display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 500px;
-    width: 75%;
+    height: 500px;*/
+    width: 35%;
     margin: auto;
     grid-gap: 50px;
 }

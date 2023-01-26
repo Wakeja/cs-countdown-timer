@@ -55,10 +55,10 @@ p{
 }
 
 .new-awakened-container{
-    /*display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 500px;*/
-    width: 35%;
+    height: 500px;
+    width: 85%;
     margin: auto;
     grid-gap: 50px;
 }
@@ -70,17 +70,17 @@ p{
     object-fit: contain;
 }
 
-.amy-img img:hover, .shin-jia-img img:hover{
+.rate-up-img img:hover, .shin-jia-img img:hover{
     opacity: 0.70;
 }
 
 
 /*New Employees*/
 .new-employee-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
     margin: auto;
-    width: 65%;
+    width: 35%;
     grid-gap: 50px;
 }
 

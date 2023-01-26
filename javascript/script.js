@@ -92,14 +92,14 @@ function countReset(element) {
 }
 
 
-countdown("January 19, 2023 04:00:00 UTC+09:00", timerEvent1);
-countdown("January 26, 2023,04:00:00 UTC+09:00", timerEvent2);
+countdown("February 8, 2023 04:00:00 UTC+09:00", timerEvent1);
+countdown("February 8, 2023 04:00:00 UTC+09:00", timerEvent2);
 
-countdown("January 19, 2023 04:00:00 UTC+09:00", timerAwakened1);
+countdown("February 8, 2023 04:00:00 UTC+09:00", timerAwakened1);
 countdown("February 2, 2023 04:00:00 UTC+09:00",timerAwakened2);
 
-countdown("January 26, 2023 04:00:00 UTC+09:00", timerEmployee1);
-countdown("January 26, 2023 04:00:00 UTC+09:00", timerEmployee2);
+countdown("February 8, 2023 04:00:00 UTC+09:00", timerEmployee1);
+countdown("February 8, 2023 04:00:00 UTC+09:00", timerEmployee2);
 
 countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement4);
 

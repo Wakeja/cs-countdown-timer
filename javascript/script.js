@@ -10,14 +10,11 @@ var timerAwakened2 = document.getElementById("timerAwakened2");
 var timerEmployee1 = document.getElementById("timerEmployee1");
 var timerEmployee2 = document.getElementById("timerEmployee2");
 
-//New Operator
-var timerElement4 = document.getElementById("timer4");
-
 //Danger Close
 var timerDangerClose = document.getElementById("timerDangerClose");
 
 //Dive
-var timerDive = document.getElementById("timerDive");
+var timerPrestige = document.getElementById("timerPrestige");
 
 //Counterpass; Resets every 28 days
 var timerCounterpass = document.getElementById("timerCounterpass");
@@ -96,17 +93,16 @@ countdown("February 8, 2023 04:00:00 UTC+09:00", timerEvent1);
 countdown("February 8, 2023 04:00:00 UTC+09:00", timerEvent2);
 
 countdown("February 8, 2023 04:00:00 UTC+09:00", timerAwakened1);
-countdown("February 2, 2023 04:00:00 UTC+09:00",timerAwakened2);
+countdown("February 22, 2023 04:00:00 UTC+09:00",timerAwakened2);
 
-countdown("February 8, 2023 04:00:00 UTC+09:00", timerEmployee1);
-countdown("February 8, 2023 04:00:00 UTC+09:00", timerEmployee2);
+countdown("February 22, 2023 04:00:00 UTC+09:00", timerEmployee1);
+countdown("February 22, 2023 04:00:00 UTC+09:00", timerEmployee2);
+countdown("February 22, 2023 04:00:00 UTC+09:00", timerEmployee3);
 
-countdown("January 19, 2023 04:00:00 UTC+09:00", timerElement4);
+countdown("February 22, 2023 04:00:00 UTC+09:00", timerDangerClose);
+countdown("June 28, 2023 04:00:00 UTC+09:00", timerPrestige);
 
-countdown("January 19, 2023 04:00:00 UTC+09:00", timerDangerClose);
-countdown("April 1, 2023 04:00:00 UTC+09:00", timerDive);
-
-countdown("February 8, 2023 04:00:00 UTC+09:00", timerCounterpass);
+countdown("March 8, 2023 04:00:00 UTC+09:00", timerCounterpass);
 
 countReset(timerReset1);
 countReset(timerReset2);
